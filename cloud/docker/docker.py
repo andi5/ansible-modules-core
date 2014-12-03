@@ -154,7 +154,7 @@ options:
     description:
       - Set the state of the container
     required: false
-    default: present
+    default: running
     choices: [ "present", "running", "stopped", "absent", "killed", "restarted" ]
     aliases: []
   privileged:
